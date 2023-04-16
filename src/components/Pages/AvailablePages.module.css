@@ -1,0 +1,29 @@
+section {
+  color: #fff;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100%;
+}
+
+.pageList {
+  position: fixed;
+  top: 5em;
+  left: 0em;
+  right: 0em;
+  bottom: 0em;
+  overflow: auto;
+}
+
+.pageList::-webkit-scrollbar {
+  width: 7px;
+}
+
+.pageList::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #242533, #000000);
+}
+
+.pageList::-webkit-scrollbar-thumb {
+  background: #38314a;
+  border-radius: 30px;
+}
