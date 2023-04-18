@@ -21,11 +21,11 @@ const Page = (props) => {
   const handleIntersect = (entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        console.log("A");
-        console.log(entry.target);
-        console.log("B");
-        console.log(entry);
-        console.log("Elemetn is visible");
+        // console.log("A");
+        // console.log(entry.target);
+        // console.log("B");
+        // console.log(entry);
+        // console.log("Elemetn is visible");
         entry.target.classList.add(classes.show);
       } else {
         entry.target.classList.remove(classes.show);
@@ -34,7 +34,7 @@ const Page = (props) => {
   };
 
   return (
-    <section className={classes.hidden} ref={pageRef}>
+    <section className={classes.hidden} ref={pageRef} key={props.pageKey}>
       {props.children}
     </section>
   );
