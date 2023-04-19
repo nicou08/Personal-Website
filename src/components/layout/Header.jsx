@@ -1,7 +1,14 @@
 import React from "react";
 import classes from "./Header.module.css";
+import resume from "../../assets/resume.pdf";
 
 const Header = (props) => {
+  const openResume = (event) => {
+    event.preventDefault();
+    console.log("Resume button clicked");
+    window.open(resume);
+  };
+
   return (
     <div className={classes.header}>
       <div className={classes.pgOptions}>
@@ -33,7 +40,9 @@ const Header = (props) => {
         >
           Contact
         </button>
-        <button className={classes.resumeButton}>RESUME</button>
+        <button key={5} className={classes.resumeButton} onClick={openResume}>
+          RESUME
+        </button>
       </div>
     </div>
   );

@@ -82,6 +82,7 @@
 } */
 
 .resumeButton {
+  cursor: pointer;
   animation: button-fade-in 1.5s ease forwards;
   animation-delay: 3.5s;
   background-color: transparent;
@@ -89,6 +90,12 @@
   border: 1px solid #2cd6ba;
   border-radius: 5px;
   opacity: 0;
+}
+
+.resumeButton:hover {
+  background-color: #2cd6ba;
+  color: #26394d;
+  transition: all 0.5s ease;
 }
 
 @keyframes button-fade-in {
