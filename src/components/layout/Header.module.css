@@ -2,14 +2,14 @@
   height: 5em;
 
   animation: made-shadow 1s ease forwards;
-  animation-delay: 3.5s;
+  animation-delay: 4s;
 }
 
 @keyframes made-shadow {
   from {
   }
   to {
-    box-shadow: #26394d 0px 20px 30px -10px;
+    box-shadow: #346d63 0px 0px 20px 1px;
   }
 }
 
@@ -39,19 +39,19 @@
 }
 
 .pageOption:nth-child(1) {
-  animation-delay: 1800ms;
+  animation-delay: 2500ms;
 }
 
 .pageOption:nth-child(2) {
-  animation-delay: 2000ms;
+  animation-delay: 2700ms;
 }
 
 .pageOption:nth-child(3) {
-  animation-delay: 2200ms;
+  animation-delay: 2900ms;
 }
 
 .pageOption:nth-child(4) {
-  animation-delay: 2400ms;
+  animation-delay: 3100ms;
 }
 
 @keyframes pp-in {
@@ -87,7 +87,7 @@
   font-family: "Varela Round", sans-serif;
   cursor: pointer;
   animation: button-fade-in 1.5s ease forwards;
-  animation-delay: 3.5s;
+  animation-delay: 4s;
   background-color: transparent;
   color: #2cd6ba;
   border: 1px solid #2cd6ba;

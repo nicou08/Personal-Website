@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
 :root {
-  --delay-time: 2s;
+  --delay-time: 3s;
   --transition-delay: var(--delay-time) !important;
   --animation-delay: var(--delay-time) !important;
   transition-delay: var(--transition-delay);
