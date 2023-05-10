@@ -1,11 +1,12 @@
 .footer {
+  background-color: transparent;
   position: fixed;
-  left: 50px;
+  left: 120px;
   width: 70px;
   bottom: 8%;
   opacity: 0;
   animation: slide-in-fade-in 1.5s ease forwards;
-  animation-delay: 4.5s;
+  animation-delay: 3.5s;
 }
 
 @keyframes slide-in-fade-in {
@@ -37,7 +38,7 @@ nav:hover {
   text-decoration: underline;
 }
 
-img {
+/* img {
   height: 1.5rem;
   margin: 0 0.5rem;
   opacity: 0.8;
@@ -47,4 +48,25 @@ img:hover {
   transform: scale(1.1);
   transition: all 0.1s ease-in-out;
   opacity: 1;
+} */
+
+.footImg {
+  height: 1.5rem;
+  margin: 0 0.5rem;
+  opacity: 0.8;
+  transition: opacity 0.5s ease;
+}
+.footImg:hover {
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+  opacity: 1;
+}
+
+.footLine {
+  position: absolute;
+  left: 30px;
+  width: 1px;
+  height: 10rem;
+  background: linear-gradient(to bottom, #ded7f1, #2cd6ba);
+  box-shadow: #2cd6ba 0px 0px 2px 1px;
 }

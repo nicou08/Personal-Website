@@ -7,15 +7,23 @@ const Socials = () => {
   return (
     <footer className={classes.footer}>
       <nav>
-        <a href="https://www.github.com">
-          <img src={githubLogo} alt="github logo" />
+        <a href="https://github.com/nicou08" target="_blank">
+          <img src={githubLogo} alt="github logo" className={classes.footImg} />
         </a>
       </nav>
       <nav>
-        <a href="https://www.youtube.com">
-          <img src={linkedinLogo} alt="linkedIn logo" />
+        <a
+          href="https://www.linkedin.com/in/nicolas-urrego-guasca-52685a158/"
+          target="_blank"
+        >
+          <img
+            src={linkedinLogo}
+            alt="linkedIn logo"
+            className={classes.footImg}
+          />
         </a>
       </nav>
+      <div className={classes.footLine}></div>
     </footer>
   );
 };

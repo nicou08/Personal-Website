@@ -1,0 +1,60 @@
+.container {
+  position: absolute;
+  width: 50rem;
+  height: 30rem;
+}
+.containter2 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 11%;
+}
+
+.myphoto {
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p1 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 2rem;
+  left: 23rem;
+  text-align: justify;
+  color: #b8c1bf;
+}
+.p2 {
+  position: relative;
+  top: 1rem;
+  text-align: justify;
+  color: #b8c1bf;
+}
+li {
+  margin-bottom: 15px;
+  margin-right: 55px;
+  color: #b8c1bf;
+}
+.h1 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: -2rem;
+  left: 26rem;
+  color: #ffffff;
+}
+.arrow {
+  position: absolute;
+  top: -1.7rem;
+  left: 23rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid #2cd6ba;
+  border-right: 0;
+}

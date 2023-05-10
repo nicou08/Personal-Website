@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Socials from "./components/layout/Socials";
 import Header from "./components/layout/Header";
 import AvailablePages from "./components/Pages/AvailablePages";
+import classes from "./App.module.css";
 
 function App() {
   // This is to show the header after 1 second
@@ -35,6 +36,10 @@ function App() {
       {showFragment && (
         <React.Fragment>
           <Header pagereff={pagesRef} onHandleButton={handleButtonClick} />
+          <div className={classes.verticalLine}></div>
+          <div className={classes.verticalLine2}></div>
+          <div className={classes.horLine}></div>
+          <div className={classes.horLine2}></div>
           <AvailablePages pagerefff={pagesRef} />
           <Socials />
         </React.Fragment>

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
 :root {
   --delay-time: 2s;
   --transition-delay: var(--delay-time) !important;
@@ -16,7 +18,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Varela Round", sans-serif;
   font-size: 16px;
 }
 

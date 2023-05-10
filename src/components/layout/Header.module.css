@@ -1,5 +1,6 @@
 .header {
   height: 5em;
+
   animation: made-shadow 1s ease forwards;
   animation-delay: 3.5s;
 }
@@ -21,6 +22,7 @@
 }
 
 .pageOption {
+  font-family: "Varela Round", sans-serif;
   cursor: pointer;
   background-color: transparent;
   border: none;
@@ -32,7 +34,7 @@
   align-items: center;
   text-align: center;
   height: 2rem;
-  animation: pp-in 1.5s ease forwards;
+  animation: pp-in 1s ease forwards;
   opacity: 0;
 }
 
@@ -41,15 +43,15 @@
 }
 
 .pageOption:nth-child(2) {
-  animation-delay: 2200ms;
+  animation-delay: 2000ms;
 }
 
 .pageOption:nth-child(3) {
-  animation-delay: 2400ms;
+  animation-delay: 2200ms;
 }
 
 .pageOption:nth-child(4) {
-  animation-delay: 2600ms;
+  animation-delay: 2400ms;
 }
 
 @keyframes pp-in {
@@ -82,6 +84,7 @@
 } */
 
 .resumeButton {
+  font-family: "Varela Round", sans-serif;
   cursor: pointer;
   animation: button-fade-in 1.5s ease forwards;
   animation-delay: 3.5s;
