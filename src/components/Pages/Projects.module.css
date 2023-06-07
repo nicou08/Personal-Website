@@ -12,7 +12,7 @@
 }
 .container {
   position: absolute;
-  width: 50rem;
+  width: 67rem;
   height: 20rem;
 }
 
@@ -38,15 +38,20 @@
   background: linear-gradient(#2cd6ba, #9198e5);
 }
 
-.p1 {
+.p0 {
   position: absolute;
   top: 1.5rem;
   left: 0rem;
 }
-.p2 {
+.p1 {
   position: absolute;
   top: 1.5rem;
   left: 17rem;
+}
+.p2 {
+  position: absolute;
+  top: 1.5rem;
+  right: 17rem;
 }
 .p3 {
   position: absolute;
